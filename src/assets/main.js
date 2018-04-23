@@ -2,7 +2,7 @@ let answer = document.getElementById('answer');
 let attempt = document.getElementById('attempt');
 
 function setHiddenFields() {
-    answer = toString(Math.floor(Math.random() * 10000));
+    answer = Math.floor(Math.random() * 10000);
     while(answer.length < 4) {
         answer = "0" + answer;
     }
