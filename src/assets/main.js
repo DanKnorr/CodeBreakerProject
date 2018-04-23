@@ -9,10 +9,10 @@ function setHiddenFields() {
     attempt = 0;
 }
 
-function guess() {
-    let input = document.getElementById('user-guess');
-    if(answer === "" || attempt === "") {
-        setHiddenFields();
-    }
-}
+//function guess() {
+//    let input = document.getElementById('user-guess');
+//    if(answer === "" || attempt === "") {
+//        setHiddenFields();
+//    }
+//}
 
