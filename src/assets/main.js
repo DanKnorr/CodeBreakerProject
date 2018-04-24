@@ -11,7 +11,7 @@ function setHiddenFields() {
 
 function guess() {
     let input = document.getElementById('user-guess');
-    if(answer.value == "" || attempt == "") {
+    if(answer.value == '' || attempt.value == '') {
         setHiddenFields();
     }
 }
